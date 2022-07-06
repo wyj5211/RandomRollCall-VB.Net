@@ -8,11 +8,12 @@ Public Class Form1
         y = Me.Height
         SetTag(Me)
 
-        Num = 56
+        Num = 55
         State.Text = "当前设定的最大数字：" & Num
     End Sub
 
     Private Sub C1_Click(sender As Object, e As EventArgs) Handles C1.Click
+        Randomize
         If Num < 1 Then
             MsgBox("请设定大于0的数", vbOKOnly + vbCritical, "错误")
         Else '符合条件后开始timer是否启用的判定
@@ -42,6 +43,7 @@ Public Class Form1
     End Sub
 
     Private Sub C2_Click(sender As Object, e As EventArgs) Handles C2.Click
+        Randomize
         If Num < 2 Then
             MsgBox("请设定大于1的数", vbOKOnly + vbCritical, "错误")
             '判断是否大于1，否则报错
@@ -73,6 +75,7 @@ Public Class Form1
     End Sub
 
     Private Sub C3_Click(sender As Object, e As EventArgs) Handles C3.Click
+        Randomize
         If Num < 3 Then
             MsgBox("请设定大于2的数", vbOKOnly + vbCritical, "错误")
         Else

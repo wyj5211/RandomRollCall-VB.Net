@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="随机点名.exe" size="229320">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="随机点名.exe" size="228352">
       <assemblyIdentity name="随机点名" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>hHX3F4vpyRb+nuE5PGHuKzUrrTxQcFi86RDGpUo+qmU=</dsig:DigestValue>
+        <dsig:DigestValue>JHMRb2s/KDnOFgZnv62cPxVnQadtGPp/uiiJZubpHoE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
